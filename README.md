@@ -24,7 +24,7 @@ Payment
 Browsing categories and dishes
 
 ## 2.Technology Stack
-Regarding the technology stack of this project, we will introduce the technologies and frameworks used in the User Layer , Gateway Layer , Application Layer , and Data Layer . This section primarily showcases the technical frameworks and middleware employed in the project.
+Regarding the technology stack of this project, I will introduce the technologies and frameworks used in the User Layer , Gateway Layer , Application Layer , and Data Layer . This section primarily showcases the technical frameworks and middleware employed in the project.
 
 ### 2.1 User Layer
 In building the front-end pages for the system management backend, we will utilize technologies such as HTML5 (H5) , Vue.js , ElementUI , and Apache ECharts (for displaying charts). For the mobile application, we will use WeChat Mini Programs .
