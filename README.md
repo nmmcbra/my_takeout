@@ -1,4 +1,4 @@
-# Final project for Java programming
+# Course project for Java programming
 
 ## 1.Project Introduction
 This project is a customized software product designed for catering enterprises (restaurants, eateries), consisting of two parts: System Management Backend and Mini Program Application . The system management backend is primarily used by internal staff of the catering enterprise, allowing them to manage and maintain restaurant categories, dishes, meal sets, orders, employees, and other operational data. It also provides statistical analysis of various restaurant data and includes features like voice notifications for incoming orders. The mini program application is mainly for consumers, enabling them to browse dishes online, add items to their shopping cart, place orders, make payments, and request order reminders.
@@ -24,7 +24,7 @@ Payment
 Browsing categories and dishes
 
 ## 2.Technology Stack
-Regarding the technology stack of this project, we will introduce the technologies and frameworks used in the User Layer , Gateway Layer , Application Layer , and Data Layer . This section primarily showcases the technical frameworks and middleware employed in the project.
+Regarding the technology stack of this project, I will introduce the technologies and frameworks used in the User Layer , Gateway Layer , Application Layer , and Data Layer . This section primarily showcases the technical frameworks and middleware employed in the project.
 
 ### 2.1 User Layer
 In building the front-end pages for the system management backend, we will utilize technologies such as HTML5 (H5) , Vue.js , ElementUI , and Apache ECharts (for displaying charts). For the mobile application, we will use WeChat Mini Programs .
