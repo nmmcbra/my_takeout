@@ -29,22 +29,22 @@ mybatis:
 logging:
   level:
     com:
-      sky:
+      my:
         mapper: debug
         service: info
         controller: info
 
-sky:
+my:
   jwt:
     # 设置jwt签名加密时使用的秘钥
-    admin-secret-key: itcast
+    admin-secret-key:
     # 设置jwt过期时间
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
-    admin-token-name: token
-    user-secret-key: itheima
+    admin-token-name:
+    user-secret-key:
     user-ttl: 7200000
-    user-token-name: authentication
+    user-token-name:
   alioss:
     endpoint: ${my.alioss.endpoint}
     access-key-id: ${my.alioss.access-key-id}
@@ -61,6 +61,6 @@ sky:
     notifyUrl: ${my.wechat.notifyUrl}
     refundNotifyUrl: ${my.wechat.refundNotifyUrl}
   shop:
-    address: somewhere
+    address:
   baidu:
-    ak: EFEEFFEFEFE
+    ak:
