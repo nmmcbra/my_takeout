@@ -23,36 +23,40 @@ Placing orders
 Payment
 Browsing categories and dishes
 
+
+
 ## 2.Technology Stack
-Regarding the technology stack of this project, I will introduce the technologies and frameworks used in the User Layer , Gateway Layer , Application Layer , and Data Layer . This section primarily showcases the technical frameworks and middleware employed in the project.
+
+This project is built using a modern and scalable technology stack, organized into four key layers: **User Layer** , **Gateway Layer** , **Application Layer** , and **Data Layer** . 
 
 ### 2.1 User Layer
-In building the front-end pages for the system management backend, we will utilize technologies such as HTML5 (H5) , Vue.js , ElementUI , and Apache ECharts (for displaying charts). For the mobile application, we will use WeChat Mini Programs .
+
+The front-end interface leverages cutting-edge web technologies for both desktop and mobile platforms:
+
+- **Web** : HTML5, Vue.js, ElementUI, and Apache ECharts (for data visualization).
+- **Mobile** : WeChat Mini Programs for lightweight, cross-platform mobile applications.
 
 ### 2.2 Gateway Layer
-Nginx is a server that primarily serves as an HTTP server, used to deploy static resources with high performance. Nginx also plays two crucial roles: reverse proxy and load balancing . During project deployment, if we need to achieve load balancing for Tomcat, it can be easily implemented through Nginx.
+
+- **Nginx** : Serves as an HTTP server for static resource deployment, reverse proxy, and load balancing.
+- **Load Balancing** : Nginx seamlessly integrates with Tomcat to distribute traffic efficiently.
 
 ### 2.3 Application Layer
-Spring Boot : A framework for quickly building Spring projects, adopting the "convention over configuration" philosophy to simplify the configuration and development of Spring projects.
-Spring MVC : A module of the Spring framework, Spring MVC seamlessly integrates with Spring without requiring intermediate integration layers.
-Spring Task : A scheduling framework provided by Spring for handling scheduled tasks.
-HttpClient : Primarily used for sending HTTP requests.
-Spring Cache : A data caching framework provided by Spring.
-JWT (JSON Web Token) : A token-based authentication mechanism used to authenticate users on the application.
-Aliyun OSS (Object Storage Service) : Used for storing files such as images in the project.
-Swagger : Automatically generates API documentation for developers and allows for API testing.
-POI : A library that encapsulates common operations for Excel spreadsheets.
-WebSocket : A communication protocol that simplifies data exchange between clients and servers, used in this project for order notifications and order reminders.
+
+The application layer is powered by a combination of Spring-based frameworks and other essential tools:
+
+- **Spring Ecosystem** : Spring Boot (rapid development), Spring MVC (web integration), Spring Task (scheduling), Spring Cache (caching), and Spring Data Redis (Redis operations).
+- **Authentication & APIs** : JWT for token-based authentication, Swagger for API documentation and testing.
+- **Utilities** : HttpClient for HTTP requests, POI for Excel operations, WebSocket for real-time notifications, and Aliyun OSS for file storage.
 
 ### 2.4 Data Layer
-MySQL : A relational database, which will be used to store the core business data of this project.
-Redis : An in-memory database that stores data in key-value format, known for its fast access speed and commonly used for caching.
-MyBatis : The persistence layer of this project will be developed using MyBatis.
-PageHelper : A pagination plugin.
-Spring Data Redis : Simplifies Java code operations for Redis by providing convenient APIs.
+
+- **Database** : MySQL (relational database for core business data), Redis (in-memory caching for high-speed access).
+- **Persistence** : MyBatis for ORM, PageHelper for pagination, and Spring Data Redis for streamlined Redis interactions.
 
 ### 2.5 Tools
-Git : A version control tool used to manage project code in team collaboration.
-Maven : A project build tool.
-JUnit : A unit testing tool. After developers complete feature implementation, they use JUnit to perform unit tests on the functionality.
-Postman : An API testing tool that simulates various HTTP requests initiated by users and retrieves corresponding response results.
+
+Development and testing are supported by industry-standard tools:
+
+- **Version Control** : Git for collaborative code management.
+- **Build & Testing** : Maven for project builds, JUnit for unit testing, and Postman for API testing.
